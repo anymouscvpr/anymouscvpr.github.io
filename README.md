@@ -6,7 +6,7 @@ To further support the effectiveness and practicality of our method, we have don
 
   ## Qualitative comparison:
   
-  ![image](https://github.com/fjdksfj/fjdksfj.github.io/blob/master/more_res.png)
+  ![image](https://github.com/anymouscvpr/anymouscvpr.github.io/blob/master/network.jpg)
   
 > Fig. 1: Simulation results. The synthetic RGB images, errormap over all bands and the spectral response of scene point are provided. The experimental results in second column is from the same CNN model as ours on RGB images. The third and forth column are respectively the state-of-art HSCNN(2017) and Deep CASSI method(2017)
 
@@ -16,7 +16,7 @@ Scenes with different colors are captured especially blue to validate our algori
   ## Quantitative comparison:
 
 # Network structure (#R4)
-![image](https://github.com/fjdksfj/fjdksfj.github.io/blob/master/more_res.png)
+![image](https://github.com/anymouscvpr/anymouscvpr.github.io/blob/master/network.jpg)
 
 # Details (#R2)
 

@@ -1,8 +1,14 @@
 # Rebuttal Material: Hyperspectral Imaging with Random Printed Mask
 
-# Qualitative comparison:
+# Comparative Experiment(#R1):
 
-# Quantitative comparison with other
+## Qualitative comparison:
+
+## Quantitative comparison:
+
+# Network structure (#R4)
+
+# Details (#R2)
 
 * [Compared with other CNN-based method ](#experiment)
 * [Experimental details](#para)

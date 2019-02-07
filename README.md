@@ -6,14 +6,17 @@ To further support the effectiveness and practicality of our method, we have don
 
   ## Qualitative comparison:
   
+  ![image](https://github.com/fjdksfj/fjdksfj.github.io/blob/master/more_res.png)
+  
 > Fig. 1: Simulation results. The synthetic RGB images, errormap over all bands and the spectral response of scene point are provided. The experimental results in second column is from the same CNN model as ours on RGB images. The third and forth column are respectively the state-of-art HSCNN(2017) and Deep CASSI method(2017)
 
-As shown in Fig. 1, the first column is the captured sharp gray image and the second column is the captured dispersive image. Based on the reconstructed multispectral images from these two measurements, the synthetic images by integrating with the camera response curve are shown in the third column. Physically captured RGB images by an additional RGB camera are in the forth column. Our hybrid system and pixel-wise reconstruction algorithm could cover the spatial details, as shown in the fifth and sixth columns. Futhermore, the spectral response curves are shown in the last column to directly verify effectiveness of our method. 
+Campared with the second column, our idea of printed mask shows better results in terms of errormap and curves, which strongly support that the simple spectral imaging scheme provides a large number of uncorrelated spectral transmission curves to improve reconstructed performance. 
 Scenes with different colors are captured especially blue to validate our algorithm.
 
   ## Quantitative comparison:
 
 # Network structure (#R4)
+![image](https://github.com/fjdksfj/fjdksfj.github.io/blob/master/more_res.png)
 
 # Details (#R2)
 

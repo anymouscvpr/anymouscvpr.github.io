@@ -10,16 +10,10 @@
 
 # Details (#R2)
 
-* [Compared with other CNN-based method ](#experiment)
-* [Experimental details](#para)
-   
-    * [Calibration details](#calib)
-    * [Parameters setting](#parameters)
-
 
 ## <span id="res">Experimental Results on Real Data (#R3 & #R4)</span>
 
-![image](https://github.com/fjdksfj/fjdksfj.github.io/blob/master/more_res.jpg)
+![image](https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
 
 > Fig. 1: Experimental results on captured image data. The synthetic RGB images, details and the spectral response of scene points are evaluated.
 

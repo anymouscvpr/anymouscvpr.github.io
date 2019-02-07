@@ -2,6 +2,8 @@
 
 # Comparative Experiment(#R1):
 
+To further support the effectiveness and practicality of our method, we have done some comparative experiments.
+
   ## Qualitative comparison:
 > Fig. 1: Experimental results on captured image data. The synthetic RGB images, details and the spectral response of scene points are evaluated.
 

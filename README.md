@@ -18,7 +18,9 @@ Campared with the second column, our idea of printed mask shows better results i
 # Network structure (#R4)
 ![image](https://github.com/anymouscvpr/anymouscvpr.github.io/blob/master/network.jpg)
 
-first, our model is based on multiscale structure, which is downsampled three times with the method of maximum pooling. Fearure map is shrunk to half of previous layer after downsampling. Bilinear umsampling instead of deconvolution operation is used to prevent the checkboard effect. Bottleneck in Resnet~\cite{he2016deep} is added following upsampling to smooth the feature map. Skipping connection are introduced in our network structure to combine the shallow information and deep feature domain. 
+Multiscale network structure with skip connection is used in our model. 
+Four 
+which is downsampled four times with the method of maximum pooling. Fearure map is shrunk to half of previous layer after downsampling. Bilinear umsampling instead of deconvolution operation is used to prevent the checkboard effect. Bottleneck in Resnet~\cite{he2016deep} is added following upsampling to smooth the feature map. Skipping connection are introduced in our network structure to combine the shallow information and deep feature domain. 
 
 
 # Details (#R2)

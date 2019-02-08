@@ -17,9 +17,9 @@ Campared with the second column, our idea of printed mask shows better results i
   
 |                        | Our Network + RGB       | HSCNN + RGB       | Deep CASSI + random mask |Our method |
 | -------------------    | ------------------------| ------------------|--------------------------|-----------|
-| PSNR                   |    1/8                  | 30        |
-| MSE                    |    1/8                  | 30        |
-| time(s)                |    1/8                  | 30        |
+| PSNR                   |                         |                   |
+| MSE                    |                         |                   |
+| time(s)                |                         |                   |
   
   Quantitative comparison was also performed. As can be seen from the above table, our method is not only practical and simple, but also maintains a good reconstruction performance, which provides a new idea for spectral image coding and acquisition.
 

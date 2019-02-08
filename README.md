@@ -6,7 +6,7 @@ To further support the effectiveness and practicality of our method, we have don
 
   ## Qualitative comparison:
   
-  ![image](https://github.com/anymouscvpr/anymouscvpr.github.io/blob/master/network.jpg)
+  ![image](https://github.com/anymouscvpr/anymouscvpr.github.io/blob/master/link.png)
   
 > Fig. 1: Simulation results. The synthetic RGB images, errormap over all bands and the spectral response of scene point are provided. The experimental results in second column is from the same CNN model as ours on RGB images. The third and forth column are respectively the state-of-art HSCNN(2017), Super Spectral network(2017) and Deep CASSI method(2017). All data is tested on the models given by the original author.
 

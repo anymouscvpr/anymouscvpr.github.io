@@ -31,7 +31,7 @@ In order to increase the receptive field (RF) of the model and enable it to inte
 The network structure includes 4 downsamplings to extract features of different scales, spatial pixel of fearure map is  shrunk to half of the previous level after downsampling, and then  original size is maintained after 4 times of upsampling. Bottleneck  whose spatial size is the same as previous layer is added following upsampling to smooth the feature map.  Skipping connection are introduced in our network structure to combine the shallow information and deep feature domain. Sorry, there were some errors in the original schematic which may mislead readers and it is not on purpose. 
 
 
-# Details (#R2)
+# Details (#R2 & #R4)
 
 We thank #R2 for suggesting us to explain more important details about our experiment. Three EPSON XP-245 printer are used to print  colorful ink of different transmission curves on transparent non-deformable film. We investigated many inks on the market, for example 
 C13T761280, C13T761380, C13T761480, C13T761580, C13T761680, LAMY T52-Cyan, T52-Magenta T52-Yellow, Pilot INK-30 series, etc. Finally, 7 inks with the weakest correlation of transmission curves are selected . Together with 3 camera response curves, there are total 10  modulation curves.

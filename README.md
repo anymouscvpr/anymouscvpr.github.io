@@ -34,5 +34,5 @@ The network structure includes 4 downsamplings to extract features of different 
 # Details (#R2)
 
 We thank #R2 for suggesting us to explain more important details about our experiment. Three EPSON XP-245 printer are used to print  colorful ink of different transmission curves on transparent non-deformable film. We investigated many inks on the market, for example 
-C13T761280, C13T761380, C13T761480, C13T761580, C13T761680
+C13T761280, C13T761380, C13T761480, C13T761580, C13T761680, LAMY T52-Cyan, T52-Magenta T52-Yellow, Pilot INK-30 series, etc.
 When print the mask, we pay more attention to try different print parameters because different parameters determine different inkjet mode which can influence the diameter of ink droplets. For instance, we set type of printing paper as epson rough paper with high print quality in which situation the diameter is equal to 4. In addition, we control density through setting different CMYK concentrations when we make the print source.Fig5 shows different pseudo-color mask with different parameters.贴图

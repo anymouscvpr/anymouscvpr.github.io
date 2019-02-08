@@ -15,7 +15,7 @@ Campared with the second column, our idea of printed mask shows better results i
 
   ## Quantitative comparison:
   
-|                        | Our Network + RGB input | HSCNN + RGB input | Deep CASSI + random mask |Our method |
+|                        | Our Network + RGB       | HSCNN + RGB       | Deep CASSI + random mask |Our method |
 | -------------------    | ------------------------| ------------------|--------------------------|-----------|
 | PSNR                   |    1/8                  | 30        |
 | MSE                    |    1/8                  | 30        |

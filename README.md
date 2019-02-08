@@ -15,11 +15,12 @@ Campared with the second column, our idea of printed mask shows better results i
 
   ## Quantitative comparison:
   
-|                        | Our Network + RGB       | HSCNN + RGB       | Deep CASSI + random mask |Our method |
-| -------------------    | ------------------------| ------------------|--------------------------|-----------|
-| PSNR                   |                         |                   |
-| MSE                    |                         |                   |
-| time(s)                |                         |                   |
+|                        | Our Network + RGB       | HSCNN + RGB       | Super Spectral   | Deep CASSI + random mask |Our method |
+| -------------------    | ------------------------| ------------------|------------------|--------------------------|-----------|
+| PSNR(dB)               |                         |       20.7        |    20.12         |    34.47                 | 35.92
+| SSIM                   |                         |       0.09        |      0.05        |     0.001                | 0.0004
+| MSE                    |                         |      0.6          |      0.54        |     0.91                 | 0.93
+| time(s)                |         0.007           |         1040.16   |    5.56          |      1800                |  0.007   
   
   Quantitative comparison was also performed. As can be seen from the above table, our method is not only practical and simple, but also maintains a good reconstruction performance, which provides a new idea for spectral image coding and acquisition.
 

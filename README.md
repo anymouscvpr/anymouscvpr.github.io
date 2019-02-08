@@ -16,7 +16,7 @@ Campared with the second column, our idea of printed mask shows better results i
   ## Quantitative comparison:
   
 |                        | Our CNN + RGB       |  Deep CASSI                  |Our method |
-| :-------------------  :  | :------------------------:| :-----------------------------:|:-----------:|
+| -------------------    | ------------------------| -----------------------------|-----------|
 | PSNR(dB)               |            21.15        |      34.47                   | 34.74     |
 |  MSE                   |            0.03         |         0.001                | 0.0004    |
 |  SSIM                  |       0.57              |         0.91                 | 0.93      |

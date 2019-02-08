@@ -22,8 +22,7 @@ Campared with the second column, our idea of printed mask shows better results i
 |  SSIM                  |       0.57              |         0.91                 | 0.93      |
 | time(s)                |         0.007           |          1800                |  0.007    |
   
-  Quantitative comparison was also performed. As can be seen from the above table, our method is not only practical and simple, but also maintains a good reconstruction performance, which provides a new idea for spectral image coding and acquisition.
-
+  Quantitative comparison was also performed. As can be seen from the above table, our method is not only practical and simple, but also maintains a good reconstruction performance, which provides a new idea for spectral image coding and acquisition.Our final goal is to implement an on-chip hyperspectral sensor,so we care more about the simplicity and practicality at this time. The main contribution of our paper is to propose a novel, low-budget spectral imaging method.
 # Network structure (#R4)
 ![image](https://github.com/anymouscvpr/anymouscvpr.github.io/blob/master/network.jpg)
 

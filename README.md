@@ -8,7 +8,7 @@ To further support the effectiveness and practicality of our method, we have don
   
   ![image](https://github.com/anymouscvpr/anymouscvpr.github.io/blob/master/network.jpg)
   
-> Fig. 1: Simulation results. The synthetic RGB images, errormap over all bands and the spectral response of scene point are provided. The experimental results in second column is from the same CNN model as ours on RGB images. The third and forth column are respectively the state-of-art HSCNN(2017) and Deep CASSI method(2017)
+> Fig. 1: Simulation results. The synthetic RGB images, errormap over all bands and the spectral response of scene point are provided. The experimental results in second column is from the same CNN model as ours on RGB images. The third and forth column are respectively the state-of-art HSCNN(2017), Super Spectral network(2017) and Deep CASSI method(2017). All data is tested on the models given by the original author.
 
 Campared with the second column, our idea of printed mask shows better results in terms of errormap and curves, which strongly support that the simple spectral imaging scheme provides a large number of uncorrelated spectral transmission curves to improve reconstructed performance. 
 

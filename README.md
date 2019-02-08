@@ -18,9 +18,9 @@ Campared with the second column, our idea of printed mask shows better results i
 # Network structure (#R4)
 ![image](https://github.com/anymouscvpr/anymouscvpr.github.io/blob/master/network.jpg)
 
-Multiscale network structure with skip connection is used in our model. 
-Four 
-which is downsampled four times with the method of maximum pooling. Fearure map is shrunk to half of previous layer after downsampling. Bilinear umsampling instead of deconvolution operation is used to prevent the checkboard effect. Bottleneck in Resnet~\cite{he2016deep} is added following upsampling to smooth the feature map. Skipping connection are introduced in our network structure to combine the shallow information and deep feature domain. 
+In order to increase the receptive field (RF) of the model and enable it to integrate the coded information by mask of different size level, a multiscale network model with skip connection is employed since down-sampling operation can effectively increase the observation matrix contains different characteristic information in various scale space. The spatial kenel size of convltional layers is 3×3. With nonlinear relu activation, the network allows for nonlinear reconstruction of hyperspectral information, which fits better the nonlinear nature of the problem, and thus leads to better results.
+
+The network structure includes 4 downsamplings to extract features of different scales, spatial pixel of fearure map is  shrunk to half of the previous level after downsampling, and then  original size is maintained after 4 times of upsampling. Bottleneck  whose spatial size is the same as previous layer is added following upsampling to smooth the feature map.  Skipping connection are introduced in our network structure to combine the shallow information and deep feature domain. 
 
 
 # Details (#R2)

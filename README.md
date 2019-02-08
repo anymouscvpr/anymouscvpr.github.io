@@ -33,12 +33,6 @@ The network structure includes 4 downsamplings to extract features of different 
 
 # Details (#R2)
 
-
-
-Different coefficients are used to represent the strength of different constraints which determines convergence speed of algorithm. Empirically, by monitoring the convergence direction of temporary variables, and different parameters are set by coarse-to-fine tuning method. It should be noted that these parameters are almost system-independent and fixed in both synthetic and real experiments.
-
-For experimental reproducibility, hardware parameters are listed in the table below.
-
-
-
-As for running time, the iterative method takes about 2 hours to converge on the Intel(R)Core(TM)i7-6700K CPU @4.00GHz hardware platform with 32.0G RAM.
+We thank #R2 for suggesting us to explain more important details about our experiment. Three EPSON XP-245 printer are used to print  colorful ink of different transmission curves on transparent non-deformable film. We investigated many inks on the market, for example 
+C13T761280, C13T761380, C13T761480, C13T761580, C13T761680
+When print the mask, we pay more attention to try different print parameters because different parameters determine different inkjet mode which can influence the diameter of ink droplets. For instance, we set type of printing paper as epson rough paper with high print quality in which situation the diameter is equal to 4. In addition, we control density through setting different CMYK concentrations when we make the print source.Fig5 shows different pseudo-color mask with different parameters.贴图

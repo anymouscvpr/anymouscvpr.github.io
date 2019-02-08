@@ -15,7 +15,7 @@ Campared with the second column, our idea of printed mask shows better results i
 
   ## Quantitative comparison:
   
-|                        | Our Network + RGB       | HSCNN + RGB       | Super Spectral   | Deep CASSI + random mask |Our method |
+|                        | Our Network + RGB       | HSCNN-d + RGB     | Super Spectral   | Deep CASSI + random mask |Our method |
 | -------------------    | ------------------------| ------------------|------------------|--------------------------|-----------|
 | PSNR(dB)               |            21.15        |       20.73       |    20.12         |    34.47                 | 35.92     |
 |  MSE                   |            0.03         |       0.09        |      0.05        |     0.001                | 0.0004    |

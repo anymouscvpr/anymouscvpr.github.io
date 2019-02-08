@@ -21,7 +21,7 @@ Campared with the second column, our idea of printed mask shows better results i
 | MSE                    |    1/8                  | 30        |
 | time(s)                |    1/8                  | 30        |
   
-  Quantitative comparison was also performed. 
+  Quantitative comparison was also performed. As can be seen from the above table, our method is not only practical and simple, but also maintains a good reconstruction performance, which provides a new idea for spectral image coding and acquisition.
 
 # Network structure (#R4)
 ![image](https://github.com/anymouscvpr/anymouscvpr.github.io/blob/master/network.jpg)

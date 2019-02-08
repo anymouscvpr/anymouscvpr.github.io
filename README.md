@@ -14,6 +14,14 @@ Campared with the second column, our idea of printed mask shows better results i
 
 
   ## Quantitative comparison:
+  
+|                        | Our Network + RGB input | HSCNN + RGB input | Deep CASSI + random mask |Our method |
+| -------------------    | ------------------------| ------------------|--------------------------|-----------|
+| PSNR                   |    1/8                  | 30        |
+| MSE                    |    1/8                  | 30        |
+| time(s)                |    1/8                  | 30        |
+  
+  Quantitative comparison was also performed. 
 
 # Network structure (#R4)
 ![image](https://github.com/anymouscvpr/anymouscvpr.github.io/blob/master/network.jpg)
@@ -31,10 +39,6 @@ Different coefficients are used to represent the strength of different constrain
 
 For experimental reproducibility, hardware parameters are listed in the table below.
 
-|  Sensor part number    | Aperture(F) |Exposure time(ms)|
-| -------------------    | -------| ------------|
-| FLIR GS3-u3-32S4C-C    |    1/8 | 30        |
-| FLIR GS3-u3-32S4M-C    |    1/8 | 30        |
 
 
 As for running time, the iterative method takes about 2 hours to converge on the Intel(R)Core(TM)i7-6700K CPU @4.00GHz hardware platform with 32.0G RAM.

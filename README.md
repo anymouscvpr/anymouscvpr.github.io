@@ -35,7 +35,7 @@ The network structure includes 4 downsamplings to extract features of different 
 
 # Details (#R2 & #R4)
 
-We thank #R2 for suggesting us to explain more important details about our experiment. Three EPSON XP-245 printer are used to print  colorful ink of different transmission curves on transparent non-deformable film. We investigated many inks on the market, for example 
+We thank #R2 for suggesting us to explain more important details about our experiment. Three EPSON XP-245 printers are used to print  colorful ink of different transmission curves on transparent non-deformable film. We investigated many inks on the market, for example 
 C13T761280, C13T761380, C13T761480, C13T761580, C13T761680, LAMY T52-Cyan, T52-Magenta T52-Yellow, Pilot INK-30 series, etc. Finally, 7 inks with the weakest correlation of transmission curves are selected considering 3 camera response curves.
 
 In practice, the ink-jet printer we used takes a long time to solidify each layer on the PET film, making it difficult to print too many layers. Since the rank improvement becomes small when the number of layer exceeds 14, we choose 14 layers instead of 50 in practice. which is much larger than the real magnification of our relay lens, leading tothe big visual difference. There are blurry in Fig.5,but it is not that obvious as in picture captured by 20X microscope. 

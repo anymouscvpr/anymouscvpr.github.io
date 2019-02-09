@@ -1,10 +1,10 @@
-# Rebuttal Material: Hyperspectral Imaging with Random Printed Mask
+## Rebuttal Material: Hyperspectral Imaging with Random Printed Mask
 
-# Comparisons with the state-of-the-art CNN based methods(#R1):
+### Comparisons with the state-of-the-art CNN based methods(#R1):
 
 To further demonstrate the effectiveness and practicality of our method, we have conducted more comparison experiments with the CNN based methods, both qualitatively and quantitatively. 
 
-## Qualitative comparisons:
+#### Qualitative comparisons:
   
   [![link.png](https://i.postimg.cc/wT5hyR3w/link.png)](https://postimg.cc/F7RfwRyS)
   
@@ -15,7 +15,7 @@ Our method achieves significantly better results compared with the third column,
 Compared with the second column, our method achieves comparable reconstruction results as the state-of-the-art CNN based methods that demonstrates the effectiveness of our method. As can be seen from the reconstructed spectral curves at red points in groudtruth picture, our reconstruction method have restored the spectral details.
 
 
-  ## Quantitative comparison:
+  #### Quantitative comparison:
   
 |                        | Our CNN + RGB       |  Deep CASSI                  |Our method |
 | -------------------    | ------------------------| -----------------------------|-----------|
@@ -28,7 +28,7 @@ Compared with the second column, our method achieves comparable reconstruction r
   
   In conclusion, we proposed a novel, low-budget and efficient hyperspectral imaging method, which is quiet promising for wide applications.
   
-# Network structure (#R4)
+### Network structure (#R4)
 ![image](https://github.com/anymouscvpr/anymouscvpr.github.io/blob/master/network.jpg)
 
 We thank #R4 for pointing out the mistakes and we have fixed the mistakes in the original schematic which may mislead readers. In order to increase the receptive field (RF) of the model and enable it to integrate the coded information by mask of different size level, a multiscale network model with skip connection is employed since down-sampling operation can effectively increase the observation matrix which contains different characteristic information in various scale space. The spatial kenel size of convolution layers layers is 3×3. With nonlinear relu activation, the network allows for nonlinear reconstruction of hyperspectral information, which fits better on the nonlinear nature of the problem, and thus leads to better results.
@@ -36,7 +36,7 @@ We thank #R4 for pointing out the mistakes and we have fixed the mistakes in the
 The network structure includes 4 downsamplings to extract features of different scales, spatial pixel of feature map is  shrunk to half of the previous level after downsampling, and then the original size is maintained after 4 times upsampling. Bottleneck whose spatial size is the same as previous layer is added following upsampling to smooth the feature map. Skip connection is introduced in our network structure to improve the disappearance of gradients during backpropagation and merge shallow and deep information. 
 
 
-# Details (#R2 & #R4)
+### Details (#R2 & #R4)
 
 We thank #R2 for suggesting us to explain more important details about our experiment. As for the printer type, three EPSON XP-245 printers are used to print  colorful ink of different transmission curves on transparent non-deformable film. We investigated many inks on the market, for example 
 C13T761280, C13T761380, C13T761480, C13T761580, C13T761680, LAMY T52-Cyan, T52-Magenta T52-Yellow, Pilot INK-30 series, etc. Finally, 7 inks with the weakest correlation of transmission curves are selected besides the 3 camera response curves of Bayer filter.

@@ -12,7 +12,7 @@ To further demonstrate the effectiveness and practicality of our method, we have
 
 Our method achieves significantly better results compared with the third column, in terms of both the errormaps and spectral curves. This comparison demonstrate the large performance improvement by the randomly printed color mask individually and the importance of introducing uncorrelated spatial-spectral encoding of our color mask.
 
-Compared with the second column, our method achieves comparable reconstruction results as the state-of-the-art CNN based methods. Demonstrating the effectiveness of our method. As can be seen from the spectral curve at some points, our reconstruction method have restored the spectral details.
+Compared with the second column, our method achieves comparable reconstruction results as the state-of-the-art CNN based methods. Demonstrating the effectiveness of our method. As can be seen from the spectral curves at red points in groudtruth picture, our reconstruction method have restored the spectral details.
 
 
   ## Quantitative comparison:

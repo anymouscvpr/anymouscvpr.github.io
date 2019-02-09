@@ -8,7 +8,7 @@ To further demonstrate the effectiveness and practicality of our method, we have
   
   [![link.png](https://i.postimg.cc/wT5hyR3w/link.png)](https://postimg.cc/F7RfwRyS)
   
-> Fig. 1: Simulation results. The synthetic RGB images, errormaps and the spectral response of red scene point are provided.  The second column are the results of the state-of-the-art CNN method, i.e. Deep CASSI method [8]. (Note that the models are provided by the original author.) The third column are the results of our CNN model trained to recover hyperspectral images from RGB images. 
+> Fig. 1: Simulation results. The synthetic RGB images, errormaps and the spectral response of red scene point are provided.  The second column are the results of the state-of-the-art CNN method, i.e. Deep CASSI method [8]. (Note that the model is provided by the original author.) The third column are the results of our CNN model trained to recover hyperspectral images from RGB images. 
 
 Our method achieves significantly better results compared with the third column, in terms of both the errormaps and spectral curves. This comparison demonstrate the large performance improvement by the randomly printed color mask individually and the importance of introducing uncorrelated spatial-spectral encoding of our color mask.
 

@@ -40,7 +40,7 @@ The network structure includes 4 downsamplings to extract features of different 
 
 We thank #R2 for suggesting us to explain more important details about our experiment. As for the printer type, three EPSON XP-245 printers are used to print  colorful ink of different transmission curves on transparent non-deformable film. We investigated many inks on the market, for example 
 C13T761280, C13T761380, C13T761480, C13T761580, C13T761680, LAMY T52-Cyan, T52-Magenta T52-Yellow, Pilot INK-30 series, etc. Finally, 7 inks with the weakest correlation of transmission curves are selected besides the 3 camera response curves of Bayer filter.
-And we can adjust the diameter of the ink droplet by changing of the relay lens.
+And we can adjust the diameter of the ink droplet by changing of the relay lens. As we known that the CMYK color model is used in color printing, so we can set the density of each C M Y K channel of  CMYK image to control the distribution density of the droplets.
 
 In practice, the ink-jet printer we used takes a long time to solidify each layer on the PET film, making it difficult to print too many layers. Since the rank improvement becomes small when the number of layer exceeds 14, we choose 14 layers instead of 50 in practice. There are blurry in Fig.5,but it is not that obvious as in picture captured by 20X microscope which is much larger than the real magnification of our relay lens, leading to the big visual difference. 
  It should be pointed out that the meaning of layers are not physically separate sheets but multiple prints on the same sheet.

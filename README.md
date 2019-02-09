@@ -4,9 +4,11 @@
 
 To further support the effectiveness and practicality of our method, we have done some comparative experiments. Qualitative and quantitative analysis of reconstruction results are conducted. 
 
-  ## Qualitative comparison:
+## Qualitative comparison:
   
+  [link.png](https://postimg.cc/F7RfwRyS)
   ![image](https://github.com/anymouscvpr/anymouscvpr.github.io/blob/master/link.png)
+  ![image](https://raw.githubusercontent.com/anymouscvpr/anymouscvpr.github.io/raw/master/link.png)
   
 > Fig. 1: Simulation results. The synthetic RGB images, errormap over all bands and the spectral response of red scene point are provided.  The results from state-of-art Deep CASSI method(2017) are the second column  . All data is tested on the models given by the original author.The experimental results in third column is from the same CNN model as ours on RGB images. 
 Campared with the third column, our idea of printed mask shows better results in terms of errormap and curves, which strongly support that the simple spectral imaging scheme provides a large number of uncorrelated spectral transmission curves to improve reconstructed performance. 
